@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Garden</title>
+</head>
+
+<body>
+
+<div class="main"></div>
+
+
+<!-- Le javascript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="jam/require.js"></script>
+<script>
+  require(['js/app', 'domReady'], function (app, domReady) {
+    app.init(function(){
+        domReady(app.on_dom_ready);
+    });
+  });
+</script>
+</body>
+</html>

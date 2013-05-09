@@ -1,0 +1,33 @@
+{
+    "name": "lessc",
+    "version": "1.3.1",
+    "description": "A plugin to compile less files.",
+    "dependencies": {
+        "text": "2.0.2"
+    },
+    "keywords": [
+        "less",
+        "lessc",
+        "css"
+    ],
+    "main": "lessc.js",
+    "repository": "git://github.com/shovon/lessc.git",
+    "homepage": "https://github.com/shovon/lessc",
+    "url" : "https://github.com/shovon/lessc",
+    "maintainers":[
+        {
+            "name" : "Salehen Shovon Rahman",
+            "web" : "https://github.com/shovon"
+        },
+        {
+            "name":"Ryan Ramage",
+            "web":"https://github.com/ryanramage"
+        }
+    ],
+    "repositories":[
+        {
+            "type":"git",
+            "url":"https://github.com/shovon/lessc"
+        }
+    ]
+}

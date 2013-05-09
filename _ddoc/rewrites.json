@@ -1,0 +1,10 @@
+[
+    { "description": "Access to this database" , "from": "_db" , "to"  : "../.." },
+    { "from": "_db/*" , "to"  : "../../*" },
+    { "from": "_ddoc/plugin_config.js" , "to"  : "_list/plugin_config/plugins" },
+    { "description": "Access to this design document" , "from": "_ddoc" , "to"  : "" },
+    { "from": "_ddoc/*" , "to"  : "*"},
+
+    { "from": "/", "to": "index.html"},
+    { "from": "/*", "to": "*"}
+]
