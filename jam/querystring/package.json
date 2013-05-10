@@ -1,0 +1,10 @@
+{
+    "name": "querystring",
+    "version": "0.0.8",
+    "categories": ["node.js","utils"],
+    "description": "Utility functions for manipulating and parsing url query strings",
+    "main": "querystring.js",
+    "dependencies": {
+        "underscore": null
+    }
+}

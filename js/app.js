@@ -5,9 +5,10 @@ define('js/app',[
     'events',
     'director',
     'js/controller',
+    'garden-menu-widget',
     'lessc!css/main.less'
 ],
-function(require, $, _,  events, director,   controller, main_menu){
+function(require, $, _,  events, director,   controller, garden_menu_widget){
     var exports = {},
         emitter = new events.EventEmitter(),
 
@@ -46,6 +47,10 @@ function(require, $, _,  events, director,   controller, main_menu){
     exports.on_dom_ready = function() {
         // start the app on the /, which is the main, menu
         router.init('/');
+        var garden_ui = new garden_menu_widget('http://localhost:5984/dashboard');
+        garden_ui.init(function(err){
+
+        });
     };
 
     // for modules we dont know about

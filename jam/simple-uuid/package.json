@@ -1,0 +1,19 @@
+{
+    "name":"simple-uuid",
+    "version":"0.0.1",
+    "description":"A simple uuid generator, in a AMD module.",
+    "main":"uuid.js",
+    "maintainers":[
+        {
+            "name":"Ryan Ramage",
+            "email":"ryan@eckoit.com",
+            "web":"https://github.com/ryanramage"
+        }
+    ],
+    "repositories":[
+        {
+            "type":"git",
+            "url":"https://github.com/ryanramage/simple-uuid"
+        }
+    ]
+}

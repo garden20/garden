@@ -1,0 +1,6 @@
+{
+    "name": "md5",
+    "version": "2.1.0-jam.1",
+    "description": "A JavaScript implementation of the RSA Data Security, Inc. MD5 Message Digest Algorithm, as defined in RFC 1321",
+    "main": "md5.js"
+}

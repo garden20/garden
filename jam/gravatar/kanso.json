@@ -1,0 +1,12 @@
+{
+    "name": "gravatar",
+    "version": "0.0.2",
+    "categories": ["api clients"],
+    "description": "A library for generating Gravatar URLs",
+    "modules": "gravatar.js",
+    "dependencies": {
+        "modules": null,
+        "querystring": null,
+        "md5": null
+    }
+}
